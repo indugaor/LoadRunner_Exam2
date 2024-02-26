@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Server: openresty
+Date: Mon, 26 Feb 2024 09:05:11 GMT
+Content-Length: 0
+Connection: close
+access-control-allow-headers: content-disposition, x-coroner-location, x-coroner-token, content-type
+access-control-allow-methods: PUT, GET, DELETE, HEAD, PATCH, POST
+access-control-allow-origin: https://www.saucedemo.com
+

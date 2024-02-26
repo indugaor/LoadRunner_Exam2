@@ -1,0 +1,11 @@
+[t24]
+FileName1=t24.html
+URL1=https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+Total=1
+RequestHeaderFile=t24_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t24_ResponseHeader.txt
+ContentType=
+SnapshotXmlFile=snapshot_24.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,22 @@
+[t2]
+FileName2=t1_7_css2.css
+RawStepEndTime=1708943845777
+FileName5=t1_4_2.UNK
+FileName4=t1_3_main.css
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=www.saucedemo.com
+ContentType=text/html
+URL1=https://www.saucedemo.com/
+URL2=https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500
+URL3=https://www.saucedemo.com/static/js/main.9735b7ab.chunk.js
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=https://www.saucedemo.com/static/css/main.d9c3792d.chunk.css
+URL5=https://www.saucedemo.com/static/js/2.9b02e67e.chunk.js
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1708943845770
+Total=5
+StepName=Url: www.saucedemo.com
+FileName1=t2.html
+FileName3=t1_5_main.UNK

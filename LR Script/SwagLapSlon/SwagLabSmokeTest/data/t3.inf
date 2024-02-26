@@ -1,0 +1,15 @@
+[t3]
+FileName1=t3.html
+URL1=https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+Total=3
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_3.xml
+FileName2=t3_service-worker.html
+URL2=https://www.saucedemo.com/service-worker.js
+FileName3=t3_favicon.html
+URL3=https://www.saucedemo.com/favicon.ico
+[ProtocolInfo]
+ProtocolId=QTWeb

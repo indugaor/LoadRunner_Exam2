@@ -1,0 +1,45 @@
+Virtual User Script started at: 26-02-2024 16:07:25
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2023.0.0 for Windows 10; build 506 (Mar 08 2023 13:11:40)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Administrator\Desktop\LoadRunnerAdvanced\LR Script\SwagLapSlon\SwagLabLoadTesting\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(12): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(12): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(14): web_url("www.saucedemo.com") started  	[MsgId: MMSG-26355]
+vuser_init.c(14): Found resource "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500" in HTML "https://www.saucedemo.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "https://www.saucedemo.com/static/css/main.d9c3792d.chunk.css" in HTML "https://www.saucedemo.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "https://www.saucedemo.com/static/js/2.9b02e67e.chunk.js" in HTML "https://www.saucedemo.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): Found resource "https://www.saucedemo.com/static/js/main.9735b7ab.chunk.js" in HTML "https://www.saucedemo.com/"  	[MsgId: MMSG-26659]
+vuser_init.c(14): web_url("www.saucedemo.com") was successful, 210012 body bytes, 3432 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(23): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(23): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_url("www.saucedemo.com") started  	[MsgId: MMSG-26355]
+Action.c(8): Retrieving data from cache for "https://www.saucedemo.com/"  	[MsgId: MMSG-26557]
+Action.c(8): Resource "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Resource "https://www.saucedemo.com/static/css/main.d9c3792d.chunk.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Resource "https://www.saucedemo.com/static/js/2.9b02e67e.chunk.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): Resource "https://www.saucedemo.com/static/js/main.9735b7ab.chunk.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(8): web_url("www.saucedemo.com") was successful, 0 body bytes, 0 header bytes  	[MsgId: MMSG-26386]
+Action.c(17): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(17): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(21): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(21): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(27): web_custom_request("json") started  	[MsgId: MMSG-26355]
+Action.c(27): web_custom_request("json") was successful, 923 body bytes, 1088 header bytes  	[MsgId: MMSG-26386]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

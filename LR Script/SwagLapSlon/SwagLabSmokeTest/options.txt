@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\LoadRunnerAdvanced\LR Script\SwagLapSlon\SwagLabSmokeTest
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\administrator\desktop\loadrunneradvanced\lr script\swaglapslon\swaglabsmoketest\\logfile.log
+c:\users\administrator\desktop\loadrunneradvanced\lr script\swaglapslon\swaglabsmoketest\\combined_SwagLabSmokeTest.c
+c:\users\administrator\desktop\loadrunneradvanced\lr script\swaglapslon\swaglabsmoketest\\pre_cci.c

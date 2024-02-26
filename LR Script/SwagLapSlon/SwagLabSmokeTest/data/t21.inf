@@ -1,0 +1,13 @@
+[t21]
+FileName1=t21.html
+URL1=https://events.backtrace.io/api/unique-events/submit?universe=UNIVERSE&token=TOKEN
+Total=2
+RequestHeaderFile=t21_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t21_ResponseHeader.txt
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_21.xml
+FileName2=t21_service-worker.html
+URL2=https://www.saucedemo.com/service-worker.js
+[ProtocolInfo]
+ProtocolId=QTWeb

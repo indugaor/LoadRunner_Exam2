@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: www.saucedemo.com",
+                "infFile": "t2.inf",
+                "time": 1708943845801
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Custom Request: json",
+                "infFile": "t3.inf",
+                "time": 1708943846248
+            }
+        ],
+        "transactions": []
+    }
+]

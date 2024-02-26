@@ -1,0 +1,20 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.saucedemo.com",
+                "infFile": "t1.inf",
+                "time": 1708943871002
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: index.html",
+                "infFile": "t2.inf",
+                "time": 1708943871053
+            }
+        ],
+        "transactions": []
+    }
+]
